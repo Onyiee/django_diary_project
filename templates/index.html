@@ -21,7 +21,7 @@
         <h2>{{one_entry.entry_title }}</h2>
         <p>{{ one_entry.entry_body }}</p>
         <h4>{{ one_entry.entry_date }}</h4>
-        <a href="{% url 'edit_entry' one_entry.pk %}">Edit Entry</a>
+        <a href="{% url 'edit_entry' one_entry.pk %}">Edit Entry|</a>
         <a href="{% url 'delete_entry' one_entry.pk%}">Delete Entry</a>
                 </div>
         {% endfor %}
